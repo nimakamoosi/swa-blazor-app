@@ -14,5 +14,7 @@ _repo.*/
 *.lnk
 node_modules/
 /test-results/
-/playwright-report/
+/pw-report/
+report.json
 /playwright/.cache/
+package-lock.json
