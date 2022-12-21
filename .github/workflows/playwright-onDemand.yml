@@ -83,7 +83,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Notify docusaurus repo
-        env:
+        with:
           GITHUB_TOKEN: ${{ secrets.TEST_HARNESS_PAT_TOKEN }}
         run: |
           gh api repos/mspnp/intern-js-pipeline/dispatches \
